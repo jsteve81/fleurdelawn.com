@@ -1,6 +1,108 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: "Avenir W02", Avenir, Futura, "Gill Sans", Calibri, "Century Gothic", "AppleGothic", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #2f3f4e;
+    font-weight: 700;
+    margin: 0 0 .25em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #e92429;
+    letter-spacing: 0.07em;
+    font-weight: 700;
+}
+
+.section-even {
+    background-color: #ededed;
+    border-bottom: #808080 solid 1px;
+    border-top: #808080 solid 1px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-bottom-1em {
+    margin-bottom: 1em;
+}
+
+.padd-top {
+    padding-top: 50px;
+}
+
+.padd-bottom {
+    padding-bottom: 50px;
+}
+
+.padd-bottom-small {
+    padding-bottom: 20px;
+}
+
+.padd-top-small {
+    padding-top: 20px;
+}
+
+.padd-bottom-mini {
+    padding-bottom: 10px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-block {
+    display: block;
+}
+
+.main-row {
+    background: url('images/main-row-bg.png');
+    height: 350px;
+    border-bottom: #808080 solid 1px;
+    border-top: #808080 solid 1px;
+    text-align: center;
+    padding-top: 5em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .main-row {
+        height: 400px;
+    }
+}
+
+.main-row h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main-row h2 {
+    color: #000000;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.main-row .btn {
+    margin-top: 2em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .main-row .btn {
+        margin-top: 0;
+    }
+}
+
+.signin-register-bottom-div {
+    border-top: 1px solid #888; 
+    padding-top:15px; 
+    font-size:85%
+}
+
+.navbar-brand {
+    padding-top: 1px;
 }
 
 /* Set padding to keep content from hitting the edges */

@@ -191,6 +191,8 @@
   <ItemGroup>
     <Content Include="App\durandal\plugins\router.js" />
     <Content Include="App\main.js" />
+    <Content Include="App\services\dataservice.js" />
+    <Content Include="App\services\model.js" />
     <Content Include="App\viewmodels\home.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\views\home.html" />
@@ -204,9 +206,12 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\durandal.css" />
+    <Content Include="Content\images\Fleur-De-Lawn-Logo.png" />
+    <Content Include="Content\images\green-white-gradient.png" />
     <Content Include="Content\images\icon.png" />
     <Content Include="Content\images\ios-startup-image-landscape.png" />
     <Content Include="Content\images\ios-startup-image-portrait.png" />
+    <Content Include="Content\images\main-row-bg.png" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
@@ -275,9 +280,7 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\toastr.min.js.map" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App\services\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

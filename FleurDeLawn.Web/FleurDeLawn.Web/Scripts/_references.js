@@ -36,3 +36,5 @@
 /// <reference path="../app/viewmodels/home.js" />
 /// <reference path="moment-with-langs.js" />
 /// <reference path="moment.js" />
+/// <reference path="../app/services/dataservice.js" />
+/// <reference path="../app/services/model.js" />
