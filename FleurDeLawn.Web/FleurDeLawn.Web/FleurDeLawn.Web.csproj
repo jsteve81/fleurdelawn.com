@@ -177,15 +177,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountBindingModels.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Db\Address.cs" />
+    <Compile Include="Models\Db\ApplicationUser.cs" />
+    <Compile Include="Models\IdentityContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
-    <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -197,10 +197,6 @@
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\views\home.html" />
     <Content Include="App\views\shell.html" />
-    <Content Include="App_Data\FleurDeLawn.mdf" />
-    <Content Include="App_Data\FleurDeLawn_log.ldf">
-      <DependentUpon>FleurDeLawn.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -280,7 +276,11 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\toastr.min.js.map" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

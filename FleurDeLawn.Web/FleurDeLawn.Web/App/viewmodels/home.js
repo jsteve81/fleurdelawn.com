@@ -28,6 +28,7 @@
 
     function activate() {
         model.clean(loginModel);
+        model.clean(registerModel);
     }
 
     function toggleRegistrationSignup(item, event) {
@@ -44,6 +45,8 @@
             });
         }
     }
+
+
 
     function scrollTo(item, event) {
         var target = $(event.target).attr('data-scrollto');
